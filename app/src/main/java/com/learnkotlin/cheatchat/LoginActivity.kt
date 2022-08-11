@@ -12,8 +12,9 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun onHandleBtnRegister(view: View){
-//        val loginIntent = Intent(this, LoginActivity::class.java)
-//        startActivity(loginIntent)
+        println("okokok")
+        val registerIntent = Intent(this, RegisterActivity::class.java)
+        startActivity(registerIntent)
     }
 
     fun onHandleBtnLogin(view: View){
